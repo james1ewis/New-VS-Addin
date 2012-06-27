@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSPackage2", "VSPackage2\VSPackage2.csproj", "{A176FE90-32B6-4565-BEFC-58BA09FCE451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSPackage2_UnitTests", "VSPackage2\VSPackage2_UnitTests\VSPackage2_UnitTests.csproj", "{84033C93-F2C9-4384-A943-66DD2F0465C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4617A84B-52E3-487D-95AB-8307ED12D961}"
+	ProjectSection(SolutionItems) = preProject
+		UnitTests.testsettings = UnitTests.testsettings
+		VSPackage2.vsmdi = VSPackage2.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = VSPackage2.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A176FE90-32B6-4565-BEFC-58BA09FCE451}.Release|x86.ActiveCfg = Release|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{84033C93-F2C9-4384-A943-66DD2F0465C7}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
